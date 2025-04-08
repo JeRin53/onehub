@@ -3,7 +3,7 @@ import { SearchRequestData, SearchResponse, LocationData } from "./types.ts";
 import { generateMockData } from "./mockData.ts";
 
 const GEMINI_API_KEY = Deno.env.get("GEMINI_API_KEY");
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
+const API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent";
 
 export async function processGeminiSearch(
   query: string,
