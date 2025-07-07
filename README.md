@@ -1,70 +1,43 @@
 # 🌐 ONEHUB – Integrated Platform for Daily Essential Services
 
-**ONEHUB** is a full-stack web application designed to simplify and centralize access to essential daily services. With ONEHUB, users can compare, book, and interact with services like food delivery, cab booking, hotel reservations, fuel delivery, and train ticket bookings – all from a single, unified platform.
+**ONEHUB** is a full-stack web application designed to simplify and unify access to essential daily services like food delivery, cab booking, hotel reservations, fuel delivery, and train ticket booking. The platform uses modern web technologies and AI to provide real-time comparisons, intelligent search, and personalized experiences—all from one centralized interface.
 
 ---
 
 ## 🧠 Problem Statement
 
-Today’s users depend on multiple apps (e.g., Zomato, Swiggy, Uber, IRCTC, etc.) to manage their daily needs. This leads to:
-- Fragmented user experience
-- Repetitive logins and scattered data
-- Lack of real-time comparison between providers
-- Difficulty in making cost-effective or timely decisions
+In today’s digital environment, users rely on multiple standalone applications to perform daily tasks such as food delivery, cab booking, hotel reservations, fuel delivery, and train ticketing. This scattered approach results in a fragmented user experience, repeated logins, and difficulty in comparing prices, availability, and offers across platforms. The absence of a centralized, intelligent system leads to inefficient decision-making and lack of personalization. There is a clear need for an integrated platform that simplifies access to these services and enhances usability through smart technologies.
 
 ---
 
 ## 🎯 Objectives
 
-The primary goal of **ONEHUB** is to offer a **seamless, AI-powered platform** that integrates multiple essential services into a single interface, enabling users to:
-
-- 🔍 **Search Smartly**: Use Gemini AI-powered search to interact with services using natural language.
-- 🛒 **Compare Services**: View real-time price, delivery time, and rating comparisons across platforms like Swiggy, Zomato, Uber, Rapido, MakeMyTrip, and more.
-- 📍 **Location-Aware Recommendations**: Get personalized suggestions based on user location and past interactions.
-- 🔐 **Secure Authentication**: Use Supabase Auth (with Google Sign-In) to manage accounts safely.
-- 🧠 **OpenAI-Powered Personalization**: Deliver recommendations, offers, and intelligent prompts tailored to each user.
-- 📲 **Simplify Navigation**: Use a clean, responsive UI with intuitive dashboards and minimal switching between services.
-
----
-
-## 🧩 Features
-
-- Unified dashboard for all services
-- Edge functions with real-time API integrations
-- Gemini-powered AI search engine
-- Location-based service suggestions
-- Secure login & session management
-- Smooth UI/UX with professional design aesthetics
+1. **Identify** the limitations of existing service-based platforms that require users to switch between multiple apps for daily needs.  
+2. **Analyze** user behavior, preferences, and location data to provide personalized service suggestions and recommendations.  
+3. **Design** a unified and intuitive interface that integrates food, cab, hotel, fuel, and train booking services in a single platform.  
+4. **Develop** a responsive full-stack web application using React.js and Tailwind CSS for smooth and user-friendly navigation.  
+5. **Implement** Gemini AI to enable natural-language and voice-based search for intelligent service discovery.  
+6. **Integrate** APIs from service providers such as Swiggy, Zomato, Uber, Rapido, and MakeMyTrip to allow real-time price and delivery comparisons.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Framer Motion
-- **Backend**: Supabase (PostgreSQL, Auth, Edge Functions)
-- **AI & ML**: Gemini API, OpenAI GPT
-- **APIs**: Swiggy, Zomato, Uber, Rapido, MakeMyTrip, IRCTC (via real or mock APIs)
+- **Frontend**: React.js, Tailwind CSS, Framer Motion  
+- **Backend**: Supabase (Auth, Database, Edge Functions)  
+- **AI Integration**: Gemini AI, OpenAI API  
+- **Third-party APIs**: Swiggy, Zomato, Uber, Rapido, MakeMyTrip (mocked or real)
 
 ---
 
-## 📌 Future Scope
+## 👨‍💻 Team ONEHUB
 
-- Add bus bookings and event ticket services
-- Multi-language and currency support
-- Expand to global service providers
-- Progressive Web App (PWA) version for mobile users
-
----
-
-## 💡 Authors & Contributors
-
-- Jebin Shaju  
+- Jobastin Rajith Ambookkan  
+- Jerin Joejoe  
 - John V J  
-- Jobastin Rajith  
-- Ambookkan Jerin Joejoe  
+- Jebin Shaju  
 - **Guide**: Mr. Vinesh K. V
 
 ---
 
-> 🧠 ONEHUB aims to become the "Skyscanner for Everything" – combining the power of AI, API integration, and clean UX into one powerful daily companion.
-
+> ONEHUB — Your all-in-one daily service companion powered by AI.
